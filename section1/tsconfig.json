@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    // 어떤 버전의 JS로 컴파일할지 (ES5, ES6, ESNext-최신)
+    "target": "ESNext",
+
+    // 모듈 시스템 (CommonJS, ESNext)
+    "module": "ESNext",
+
+    // 컴파일 결과로 생성될 JS파일 위치
+    "outDir": "dist",
+
+    // 타입을 검사할때 얼마나 엄격하게 검사할지
+    "strict": false,
+
+    // a.ts, b.ts에 똑같은 변수명으로 상수 선언했을때 오류 끄기
+    "moduleDetection": "force",
+
+    "skipLibCheck": true,
+  },
+  // src 경로 아래에 있는 모든 파일 컴파일
+  "include": ["src"]
+}
